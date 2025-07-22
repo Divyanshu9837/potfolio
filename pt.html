@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Potoflio</title>
+    <link rel="stylesheet" href="pt.css">
+    <link rel="stylesheet" href="mediaqueriespt.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"> Divyanshu sharma</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="# About" onclick="location.href='#about'">About</a></li>
+                <li><a href="# Skills" onclick="location.href='#skills'">Skills</a></li>
+                <li><a href="# Projects" onclick="location.href='#projects'">Project</a></li>
+                <li><a href="# Contact" onclick="location.href='#contact'">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+<nav id="hamburger-nav">
+    <div class="logo"> Divyanshu sharma</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="togglemenu()">
+            <span></span>
+            <span></span>
+             <span></span>
+
+        </div>
+        <div class="menu-links">
+             <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#skills" onclick="togglemenu()">Skills</a></li> 
+                <li><a href="#projects" onclick="togglemenu()">Project</a></li>
+                <li><a href="#contact" onclick="togglemenu()" >Contact</a></li>
+        </div>
+    </div>
+    
+</nav>
+
+<section id="profile">
+    <div  class="section_pic-container">
+        <img src="./assects/profile-pic.png" alt="Divyanshu profile-pic" >
+    </div>
+    <div class="section_text">
+        <p class="section_text_p1"> Hello ,I'm</p>
+        <h1 class="title">Divyanshu sharma</h1>
+        <p class="section_text_p2">Mern Stack Developer</p>
+        <div class="btn-container">
+            <button class=" btn btn-color-2" onclick="window.open('./assects/resume-example.pdf')"> Download CV</button>
+            <button class=" btn btn-color-1" onclick="location.href='#contact'">
+             Contact Info</button>
+        </div>
+        <div  id="socials-container">
+            <img src="./assects/linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href='https://linkedin.com/in/divyanshu-sharma-452707256?'">
+
+            <img src="./assects/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/Divyanshu9837'">
+        </div>
+
+    </div>
+</section>
+
+<section id="about">
+    <p class="section_text_p1">Get To Know more</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="section_pic-container">  
+    <img src="./assects/about-pic.png" alt="Profile picture"
+     class="about-pic">
+</div>
+<div class="about-details-container">
+    <div class="about-containers">
+        <div class="details-container">
+            <img src="./assects/skills.png" alt="Skills icon" 
+            class="icon" />
+            <h3>Skills</h3>
+            <p>Mern stack Developer <br>Flutter</p>
+        </div>
+        <div class="details-container">
+            <img
+             src="./assects/education.png" alt="Education icon"
+             class="icon"/>
+            <h3>Education</h3>
+            <p>12th,10th  <br>B-tech 'cse'(Pursuing)
+            </p>
+        </div>
+    </div>
+    <div class="text-container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, optio vel. Possimus, distinctio. Consequuntur consectetur quidem maiores natus debitis. Cum illo ratione doloribus eos repudiandae.
+        </p>
+    </div>
+</div>
+</div>
+<img src="./assects/arrow.png" alt="Arrow icon" class="icon-arrow" onclick="location.href='#skills'">
+</section>
+
+<section id="skills">
+    <p class="section_text_p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    <div class="skills-details-container">
+        <div class="about-containers">
+            <div class="details-containers">
+                 <h2 class="skills-sub-title">Frontend Development</h2>
+                 <div class="article-container">
+                    <article>
+                        <img src="./assects/checkmark.png" alt="skills icon" class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Exprienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assects/checkmark.png" alt="skills icon" class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Exprienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assects/checkmark.png" alt="skills icon" class="icon">
+                        <div>
+                            <h3>JAVASCRIPT</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assects/checkmark.png" alt="skills icon" class="icon">
+                        <div>
+                            <h3>TypeScript</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                   
+                 </div>
+            </div>
+            <div class="details-containers">
+                 <h2 class="skills-sub-title">Backend Development</h2>
+                 <div class="article-container">
+                    <article>
+                        <img src="./assects/checkmark.png" alt="skills icon" class="icon">
+                        <div>
+                            <h3>SQl</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assects/checkmark.png" alt="skills icon" class="icon">
+                        <div>
+                            <h3>Node JS</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assects/checkmark.png" alt="skills icon" class="icon">
+                        <div>
+                            <h3>Git</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assects/checkmark.png" alt="skills icon" class="icon">
+                        <div>
+                            <h3>React</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                   
+                 </div>
+                </div>
+        </div>
+    </div>
+    <img src="./assects/arrow.png" alt="Arrow icon" class="icon-arrow" onclick="location.href='#projects'">
+</section>
+
+<section id="projects">
+    <p class="section_text_p1">Browser My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="skills-details-container">
+        <div class="about-containers">
+        <div class="details-containers color-container">
+            <div class="article-container">
+                <img src="./assects/project-1.png" alt="project 1" class="project-img">
+            </div>
+            <h2 class="skills-sub-title project-title">Project One </h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Divyanshu9837'">Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Divyanshu9837/advance-chat-box-AI'">Live Demo</button>
+            </div>
+        </div>
+        <div class="details-containers color-container">
+            <div class="article-container">
+                <img src="./assects/project-2.png" alt="project 2" class="project-img">
+            </div>
+            <h2 class="skills-sub-title project-title">Project Two </h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Divyanshu9837'">Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Divyanshu9837/Todo-list'">Live Demo</button>
+            </div>
+        </div>
+        <div class="details-containers color-container">
+            <div class="article-container">
+                <img src="./assects/project-3.png" alt="project 3" class="project-img">
+            </div>
+            <h2 class="skills-sub-title project-title">Project Three </h2>
+            <div class="btn-container" >
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Divyanshu9837'">Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Divyanshu9837/Simon-Game'">Live Demo</button>
+            </div>
+         </div>
+         </div>
+    </div>
+  
+    <img src="./assects/arrow.png" alt="Arrow icon" class="icon-arrow" onclick="location.href='#contact'">
+</section>
+
+<section id="contact"> 
+    <p class="section_text_p1" > Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./assects/email.png" alt="Email icon" class="icon contact-icon">
+            <p><a href="mailto:examplemail@gmail.com">Mail</a></p>
+
+        </div>
+   
+        <div class="contact-info-container">
+            <img src="./assects/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+            <p><a href="https://linkedin.com/in/divyanshu-sharma-452707256?">LinkedIn</a></p>
+
+        </div>
+    </div>
+    </div>
+
+</section>
+<footer> 
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="# About" onclick="location.href='#about'">About</a></li>
+                <li><a href="# Skills" onclick="location.href='#skills'">Skills</a></li>
+                <li><a href="# Projects" onclick="location.href='#projects'">Project</a></li>
+                <li><a href="# Contact" onclick="location.href='#contact'">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169;2025 Divyanshu sharma.All Rights Reserved. </p>
+</footer>
+
+
+    <script src="pt.js"></script>
+</body>
+</html>
